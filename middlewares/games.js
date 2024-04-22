@@ -1,5 +1,5 @@
 const { readData, writeData } = require('../utils/data');
-
+//я хочу марципан и лето
 const getAllGames = async (req, res, next) => {
 	const games = await readData('./data/games.json');
 	if (!games) {
